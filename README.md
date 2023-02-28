@@ -18,3 +18,7 @@ nvim init.lua
 5. Copy paste this [file](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua)
 
 - Sample [link](https://www.youtube.com/watch?v=stqUbv-5u2s)
+
+
+## NOTES
+- [How to ignore folder when search files](https://stackoverflow.com/questions/68563040/how-to-make-telescope-ignore-files-inside-node-modules)
