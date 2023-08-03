@@ -1,4 +1,13 @@
-# Manage dotfiles
+# Setup
+
+## Alacritty
+- https://zenn.dev/shinnopo/articles/798398b1d87f62
+
+## Chezmoi
+- https://www.chezmoi.io/install/
+
+
+##Manage dotfiles
 
 ## Neovim
 
