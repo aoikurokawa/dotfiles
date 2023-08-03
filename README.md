@@ -9,22 +9,22 @@
 
 ## Manage dotfiles
 
-## Neovim
+## Neovim Setup
 
 1. Install latest version [nvim](https://github.com/neovim/neovim/releases/tag/stable)
 2. Extract the file that downloaded previously
 3. Run
 ```bash
-sudo mv ~/Downloads/nvim-linux64/bin/nvim /opt/
-sudo ln -s /opt/nvim /usr/local/bin/nvim
+sudo mv ~/Downloads/nvim-linux64/ ~/
 ```
-4. Create init.lua
+4. Add PATH
 ```bash
-mkdir -p ~/.config/nvim
-cd ~/.config/nvim
-nvim init.lua
+export PATH=$PATH:~/nvim-linux64/bin
 ```
-5. Copy paste this [file](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua)
+* https://qiita.com/qq8244353/items/94cea37bf85c09dc4742
+
+5. Following this instruction
+
 
 - Sample [link](https://www.youtube.com/watch?v=stqUbv-5u2s)
 
