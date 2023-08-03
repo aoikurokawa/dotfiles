@@ -28,6 +28,9 @@ export PATH=$PATH:~/nvim-linux64/bin
 
 - Sample [link](https://www.youtube.com/watch?v=stqUbv-5u2s)
 
+## Rust analyzer
+- https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary
+
 
 ## NOTES
 - [How to ignore folder when search files](https://stackoverflow.com/questions/68563040/how-to-make-telescope-ignore-files-inside-node-modules)
