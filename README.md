@@ -7,7 +7,7 @@
 - https://www.chezmoi.io/install/
 
 
-##Manage dotfiles
+## Manage dotfiles
 
 ## Neovim
 
@@ -15,8 +15,8 @@
 2. Extract the file that downloaded previously
 3. Run
 ```bash
-sudo mv ~/Downloads/nvim-macos/bin/nvim /opt/
-sudo ln -s /opt/nvim-linux64/bin/nvim /usr/local/bin/nvim
+sudo mv ~/Downloads/nvim-linux64/bin/nvim /opt/
+sudo ln -s /opt/nvim /usr/local/bin/nvim
 ```
 4. Create init.lua
 ```bash
