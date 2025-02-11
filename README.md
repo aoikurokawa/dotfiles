@@ -1,11 +1,27 @@
 # Config files
 
+## Getting started
+
+### Install stow
+
+```bash
+sudo pacman -S stow
+```
+
+### Create symlink
+
+```bash
+stow waybar/
+```
+
 ## Resources
 
 ### Hyprland
 
 - Hyprlock
 - Waybar
+
+### Tmux
 
 ### Alacritty
 - https://zenn.dev/shinnopo/articles/798398b1d87f62
