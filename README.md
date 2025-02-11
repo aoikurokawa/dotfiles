@@ -5,6 +5,7 @@
 ### Hyprland
 
 - Hyprlock
+- Waybar
 
 ### Alacritty
 - https://zenn.dev/shinnopo/articles/798398b1d87f62
