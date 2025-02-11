@@ -1,6 +1,8 @@
-# Setup
+# Config files
 
-## Alacritty
+## Resources
+
+### Alacritty
 - https://zenn.dev/shinnopo/articles/798398b1d87f62
 
 ## Chezmoi
@@ -34,3 +36,6 @@ export PATH=$PATH:~/nvim-linux64/bin
 
 ## NOTES
 - [How to ignore folder when search files](https://stackoverflow.com/questions/68563040/how-to-make-telescope-ignore-files-inside-node-modules)
+
+## Resources
+- https://www.gnu.org/software/stow/
