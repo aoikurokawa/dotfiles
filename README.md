@@ -23,6 +23,18 @@ stow waybar/
 
 ### Tmux
 
+Stow tmux configuration
+
+```bash
+stow --dir=$HOME/dev/dotfiles/ --target=$HOME tmux
+```
+
+Read configuration file
+
+```bash
+tmux source-file ~/.config/tmux/tmux.conf
+```
+
 ### Alacritty
 - https://zenn.dev/shinnopo/articles/798398b1d87f62
 
