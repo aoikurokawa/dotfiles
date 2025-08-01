@@ -4,8 +4,23 @@
 
 ### Install stow
 
+#### Arch Linux
+
 ```bash
 sudo pacman -S stow
+```
+
+#### MacOS
+
+```bash
+brew install stow
+```
+
+### Clone dotfiles
+
+```bash
+cd ~/dev/
+git clone git@github.com:aoikurokawa/dotfiles.git 
 ```
 
 ### Create symlink
@@ -14,7 +29,7 @@ sudo pacman -S stow
 stow waybar/
 ```
 
-## Resources
+## Software
 
 ### Hyprland
 
