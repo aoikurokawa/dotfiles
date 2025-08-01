@@ -4,14 +4,6 @@
 
 ### Install stow
 
-#### Arch Linux
-
-```bash
-sudo pacman -S stow
-```
-
-#### MacOS
-
 ```bash
 brew install stow
 ```
@@ -31,11 +23,6 @@ stow waybar/
 
 ## Software
 
-### Hyprland
-
-- Hyprlock
-- Waybar
-
 ### Tmux
 
 Stow tmux configuration
@@ -50,12 +37,7 @@ Read configuration file
 tmux source-file ~/.config/tmux/tmux.conf
 ```
 
-### Alacritty
-- https://zenn.dev/shinnopo/articles/798398b1d87f62
-
-## Manage dotfiles
-
-## Neovim Setup
+### Neo Vim
 
 1. Install latest version [nvim](https://github.com/neovim/neovim/releases/tag/stable)
 2. Extract the file that downloaded previously
@@ -71,8 +53,17 @@ export PATH=$PATH:~/nvim-linux64/bin
 
 5. Following this instruction
 
-
 - Sample [link](https://www.youtube.com/watch?v=stqUbv-5u2s)
+
+6. Copy configuration file
+
+```bash
+stow --dir=$HOME/dev/dotfiles/ --target=$HOME nvim
+```
+
+### Alacritty
+- https://zenn.dev/shinnopo/articles/798398b1d87f62
+
 
 ## Rust analyzer
 - https://rust-analyzer.github.io/manual.html#rust-analyzer-language-server-binary
