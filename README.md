@@ -61,6 +61,12 @@ export PATH=$PATH:~/nvim-linux64/bin
 stow --dir=$HOME/dev/dotfiles/ --target=$HOME nvim
 ```
 
+7. Install dependencies
+
+```bash
+nvim . 
+```
+
 ### Alacritty
 - https://zenn.dev/shinnopo/articles/798398b1d87f62
 
